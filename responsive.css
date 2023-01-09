@@ -1,0 +1,35 @@
+/*タブレット向け*/
+@media(max-width:1000px) {
+    .diner-list {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+/*スマートフォン向け*/
+@media(max-width:670px) {
+    .diner-list {
+        width: 100%;
+
+    }
+    .header-left {
+      font-size:19px;
+    }
+    footer {
+        text-align: center;
+    }
+    .btn {
+        width: 100%;
+    }
+    .top-wrapper {
+        text-align: left;
+        padding-top: 90px;
+        
+    }
+    .header-right {
+        display: none;
+    }
+    .menu-icon {
+        display:block;
+    }
+    
+}
