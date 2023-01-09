@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+
+  a {
+    text-decoration: none;
+  }
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(img/mcdonalds.png);
+    background-size: cover;
+    color:black;
+    text-align: center;
+}
+.top-wrapper h1 {
+    opacity: 1;
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+.top-wrapper p {
+    font-size: 30px;
+    opacity:1;
+    font-weight: bold;
+}
+.point {
+    color: white;
+}
+.btn-wrapper {
+    margin: 20px 0;
+}
+.btn-wrapper p {
+    margin: 10px 0;
+}
+.attendance {
+    background-color: #239b76;
+}
+.contact {
+    background-color: #55acee;
+}
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+.btn:hover {
+    opacity: 1;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(104, 163, 175, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .header-left {
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
+  }
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+.header-right:hover {
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+    color: white;
+    line-height:65px;
+    padding:0 25px;
+    display:block;
+}
+.past-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+.heading h2 {
+    font-weight: normal;
+}
+
+.detail {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.detail li {
+    padding: 20px 0;
+    list-style: none;
+}
+.detail span {
+    font-weight: bold;
+}
+.diner-list {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+iframe {
+    text-align: center;
+}
+.detail-wrapper {
+    background-color: #f7f7f7;
+}
+.map-wrapper {
+    background-color: #f7f7f7;
+}
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    box-shadow: 0 7px #1a7940;
+ }
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+footer h3 {
+    font-size: 25px;
+}
+footer h5 {
+    font-size: 15px;
+    color: #b3aeb5;
+}
+footer {
+    padding-top: 30px;
+}
