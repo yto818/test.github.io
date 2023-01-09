@@ -26,10 +26,14 @@
         
     }
     .header-right {
-        display: none;
-    }
-    .menu-icon {
-        display:block;
+        font-size:1;
+        
     }
     
+    .maps {
+      display:none;
+    }
+    .no-map {
+      display:block;
+    }
 }
