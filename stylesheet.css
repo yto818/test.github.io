@@ -10,24 +10,25 @@ body {
     text-decoration: none;
   }
 .container {
+    max-width: 1170px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 }
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(https://raw.githubusercontent.com/yto818/test.github.io/dc8cf1f340ed5c7ef734457f4d14ce7362645245/mcdonalds.png);
+    background-image: url(img/mcdonalds.png);
     background-size: cover;
     color:black;
     text-align: center;
 }
 .top-wrapper h1 {
     opacity: 1;
-    font-size: 70px;
+    font-size: 40px;
     letter-spacing: 5px;
 }
 .top-wrapper p {
-    font-size: 30px;
+    font-size: 20px;
     opacity:1;
     font-weight: bold;
 }
@@ -149,4 +150,11 @@ footer h5 {
 }
 footer {
     padding-top: 30px;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
 }
